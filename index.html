@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Academy Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Code Academy</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Code Academy</h1>
+        <p>Learn coding from scratch with interactive courses.</p>
+        <button onclick="scrollToCourses()">Explore Courses</button>
+    </section>
+
+    <section id="courses" class="courses">
+        <h2>Our Coding Courses</h2>
+        <div class="course-grid">
+            <div class="course-card">
+                <h3>HTML & CSS Basics</h3>
+                <p>Build your first websites.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <h3>JavaScript Fundamentals</h3>
+                <p>Add interactivity to your sites.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <h3>Python for Beginners</h3>
+                <p>Automate tasks and build apps.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <h3>React.js Mastery</h3>
+                <p>Create dynamic web apps.</p>
+                <button>Enroll Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Code Academy is dedicated to teaching coding skills to everyone, from beginners to advanced learners.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Code Academy. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
